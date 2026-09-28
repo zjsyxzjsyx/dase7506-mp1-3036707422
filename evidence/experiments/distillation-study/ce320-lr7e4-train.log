@@ -1,0 +1,13 @@
+{"step": 100, "hard_loss": 5.534560203552246, "soft_loss": null, "loss": 5.534560203552246, "seconds": 2.909839699976146}
+{"step": 200, "hard_loss": 4.800242900848389, "soft_loss": null, "loss": 4.800242900848389, "seconds": 5.61329249991104}
+{"step": 300, "hard_loss": 4.614527702331543, "soft_loss": null, "loss": 4.614527702331543, "seconds": 8.32213809993118}
+{"step": 400, "hard_loss": 4.379487991333008, "soft_loss": null, "loss": 4.379487991333008, "seconds": 11.031235599890351}
+{"step": 500, "hard_loss": 4.333335876464844, "soft_loss": null, "loss": 4.333335876464844, "seconds": 13.741604799870402}
+{"step": 600, "hard_loss": 7.7537689208984375, "soft_loss": null, "loss": 7.7537689208984375, "seconds": 16.454687200021}
+{"validation": {"step": 600, "bpb": 3.6738846484814833, "token_ppl": 2351.3935400065347, "nll_nats": 2923448.9438949227, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6586611999664456}}
+Traceback (most recent call last):
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\train_distilled.py", line 133, in <module>
+    main()
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\train_distilled.py", line 88, in main
+    raise FloatingPointError(f'Nonfinite loss at step {step + 1}')
+FloatingPointError: Nonfinite loss at step 611

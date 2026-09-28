@@ -1,0 +1,31 @@
+{"step": 100, "hard_loss": 6.43410062789917, "soft_loss": null, "loss": 6.43410062789917, "seconds": 2.8987074999604374}
+{"step": 200, "hard_loss": 5.8202409744262695, "soft_loss": null, "loss": 5.8202409744262695, "seconds": 5.6008828999474645}
+{"step": 300, "hard_loss": 5.459574222564697, "soft_loss": null, "loss": 5.459574222564697, "seconds": 8.316592799965292}
+{"step": 400, "hard_loss": 5.14727783203125, "soft_loss": null, "loss": 5.14727783203125, "seconds": 11.029262399999425}
+{"step": 500, "hard_loss": 5.049617290496826, "soft_loss": null, "loss": 5.049617290496826, "seconds": 13.746023799991235}
+{"step": 600, "hard_loss": 4.887701034545898, "soft_loss": null, "loss": 4.887701034545898, "seconds": 16.456938999937847}
+{"validation": {"step": 600, "bpb": 2.330172790262038, "token_ppl": 137.4907856179764, "nll_nats": 1854206.6054251008, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6575686000287533}}
+{"step": 700, "hard_loss": 4.753178596496582, "soft_loss": null, "loss": 4.753178596496582, "seconds": 19.16742159985006}
+{"step": 800, "hard_loss": 4.717705249786377, "soft_loss": null, "loss": 4.717705249786377, "seconds": 21.886616799980402}
+{"step": 900, "hard_loss": 4.636406898498535, "soft_loss": null, "loss": 4.636406898498535, "seconds": 24.60112540004775}
+{"step": 1000, "hard_loss": 6.614461898803711, "soft_loss": null, "loss": 6.614461898803711, "seconds": 27.31052910001017}
+{"step": 1100, "hard_loss": 6.206320285797119, "soft_loss": null, "loss": 6.206320285797119, "seconds": 30.01877299998887}
+{"step": 1200, "hard_loss": 6.4672393798828125, "soft_loss": null, "loss": 6.4672393798828125, "seconds": 32.73274730006233}
+{"validation": {"step": 1200, "bpb": 3.067917406379239, "token_ppl": 653.5246046537856, "nll_nats": 2441257.89451319, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6339282998815179}}
+{"step": 1300, "hard_loss": 6.5193047523498535, "soft_loss": null, "loss": 6.5193047523498535, "seconds": 35.444157800171524}
+{"step": 1400, "hard_loss": 6.540738582611084, "soft_loss": null, "loss": 6.540738582611084, "seconds": 38.15633979998529}
+{"step": 1500, "hard_loss": 6.5255656242370605, "soft_loss": null, "loss": 6.5255656242370605, "seconds": 40.86760690016672}
+{"step": 1600, "hard_loss": 6.539220809936523, "soft_loss": null, "loss": 6.539220809936523, "seconds": 43.58490250003524}
+{"step": 1700, "hard_loss": 6.535039901733398, "soft_loss": null, "loss": 6.535039901733398, "seconds": 46.29781150002964}
+{"step": 1800, "hard_loss": 6.502818584442139, "soft_loss": null, "loss": 6.502818584442139, "seconds": 49.01211700006388}
+{"validation": {"step": 1800, "bpb": 3.0957250025937175, "token_ppl": 693.0737825099899, "nll_nats": 2463385.450374007, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6380616999231279}}
+{"step": 1900, "hard_loss": 6.552886009216309, "soft_loss": null, "loss": 6.552886009216309, "seconds": 51.74076890014112}
+{"step": 2000, "hard_loss": 6.545139312744141, "soft_loss": null, "loss": 6.545139312744141, "seconds": 54.46826170012355}
+{"step": 2100, "hard_loss": 6.489959716796875, "soft_loss": null, "loss": 6.489959716796875, "seconds": 57.192657000152394}
+{"step": 2200, "hard_loss": 6.497796535491943, "soft_loss": null, "loss": 6.497796535491943, "seconds": 59.908577400259674}
+{"step": 2300, "hard_loss": 6.538328170776367, "soft_loss": null, "loss": 6.538328170776367, "seconds": 62.62629560008645}
+{"step": 2400, "hard_loss": 6.53587007522583, "soft_loss": null, "loss": 6.53587007522583, "seconds": 65.34609720017761}
+{"validation": {"step": 2400, "bpb": 3.0813001710033445, "token_ppl": 672.2682218676015, "nll_nats": 2451907.0663980246, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6341107001062483}}
+{"step": 2500, "hard_loss": 6.497265815734863, "soft_loss": null, "loss": 6.497265815734863, "seconds": 68.07059200014919}
+{"step": 2600, "hard_loss": 6.5037841796875, "soft_loss": null, "loss": 6.5037841796875, "seconds": 70.79214289993979}
+{"step": 2700, "hard_loss": 6.506016731262207, "soft_loss": null, "loss": 6.506016731262207, "seconds": 73.5113017000258}

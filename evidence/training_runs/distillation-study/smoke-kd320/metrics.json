@@ -1,0 +1,47 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 5669760,
+  "steps": 10,
+  "batch_size": 32,
+  "train_tokens": 81920,
+  "peak_lr": 0.001,
+  "min_lr_ratio": 0.1,
+  "warmup_steps": 100,
+  "soft_weight": 0.5,
+  "teacher_checkpoint_sha256": "dc19ace484134e6700eba49981fb1a8f8457adfc6c1a5f4aff38d630016505d5",
+  "precision": "fp32",
+  "train_seconds": 0.659991400083527,
+  "validation": {
+    "bpb": 3.5013594864957294,
+    "token_ppl": 1633.0831837485584,
+    "nll_nats": 2786164.1484098434,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.6412390000186861
+  },
+  "validation_history": [],
+  "history": [
+    {
+      "step": 10,
+      "hard_loss": 7.416959762573242,
+      "soft_loss": 7.422219753265381,
+      "loss": 7.419589996337891,
+      "seconds": 0.659924800042063
+    }
+  ],
+  "checkpoint_sha256": "bacbd9a19118197c0e61852bb7fb6463b2ed55bd7cff0d94dd37f9ae834df4e0",
+  "student_implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 5070 Ti",
+  "peak_allocated_gb": 1.372755968,
+  "peak_reserved_gb": 1.444937728
+}

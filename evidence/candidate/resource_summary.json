@@ -1,0 +1,43 @@
+{
+  "device": "cpu",
+  "precision": "fp32",
+  "torch_intraop_threads": 4,
+  "additional_python_worker_threads": 0,
+  "checkpoint_sha256": "a46036ff367b26b081a253213f367657e7d65a10cd5fdd537b72c8379b1fe649",
+  "implementation_sha256": "8bb5145ecbb3d63e66c3badfacec89d51f3985ff8f36dd5d95d88fad0bf18d4e",
+  "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+  "test_bpb": 1.4969323726595785,
+  "test_candidate_seconds": [
+    24.28016569999454,
+    24.195482600000105,
+    23.822935099997267
+  ],
+  "test_baseline_seconds": [
+    5.057109699999273,
+    5.234312400003546,
+    5.20831840000028
+  ],
+  "candidate_median_seconds": 24.195482600000105,
+  "baseline_median_seconds": 5.20831840000028,
+  "median_time_ratio": 4.645545978909201,
+  "peak_process_rss_bytes": [
+    1737547776,
+    1736765440,
+    1736916992
+  ],
+  "max_peak_process_rss_gib": 1.6182174682617188,
+  "inference_asset_files": [
+    "runs\\distillation-refinement\\gated-t0975\\checkpoint.pt",
+    "temperature_gated_ensemble2.py",
+    "gated_ensemble2.py",
+    "ensemble2.py",
+    "model.py",
+    "common.py",
+    "evaluate.py",
+    "data\\tokenizer.json",
+    "data\\manifest.json"
+  ],
+  "inference_asset_bytes": 30169230,
+  "inference_asset_mib": 28.77161979675293,
+  "measurement_scope": "Three alternating fresh-process baseline and candidate full-test CPU FP32 scores; scorer seconds exclude startup, peak process RSS includes imports, loading and scoring."
+}

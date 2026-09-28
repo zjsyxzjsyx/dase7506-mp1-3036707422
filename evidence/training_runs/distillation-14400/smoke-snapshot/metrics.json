@@ -1,0 +1,67 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 256,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 3749376,
+  "steps": 2,
+  "batch_size": 2,
+  "train_tokens": 1024,
+  "peak_lr": 0.001,
+  "min_lr_ratio": 0.1,
+  "warmup_steps": 100,
+  "soft_weight": 0.5,
+  "save_checkpoints_from": 1,
+  "teacher_checkpoint_sha256": "dc19ace484134e6700eba49981fb1a8f8457adfc6c1a5f4aff38d630016505d5",
+  "precision": "fp32",
+  "train_seconds": 0.3095271000638604,
+  "validation": {
+    "bpb": 3.6195089726775955,
+    "token_ppl": 2096.1757996680703,
+    "nll_nats": 2880180.1624245644,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.43773470004089177
+  },
+  "validation_history": [
+    {
+      "step": 1,
+      "bpb": 3.6250651368402216,
+      "token_ppl": 2120.9298002161695,
+      "nll_nats": 2884601.4123568535,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.5266346998978406
+    },
+    {
+      "step": 2,
+      "bpb": 3.6195089726775955,
+      "token_ppl": 2096.1757996680703,
+      "nll_nats": 2880180.1624245644,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.44245700002647936
+    }
+  ],
+  "history": [
+    {
+      "step": 2,
+      "hard_loss": 7.634185314178467,
+      "soft_loss": 7.6370134353637695,
+      "loss": 7.635599136352539,
+      "seconds": 0.2941781999543309
+    }
+  ],
+  "checkpoint_sha256": "1c2197bfa247daa3ae0eef3f66055b78789717efa00d15f8830f4b0d43b2c2e6",
+  "student_implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 5070 Ti",
+  "peak_allocated_gb": 0.34715904,
+  "peak_reserved_gb": 0.517996544
+}

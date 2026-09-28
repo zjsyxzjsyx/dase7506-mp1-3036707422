@@ -1,0 +1,559 @@
+{
+  "scope": "All completed training trajectories with metrics.json in the local runs tree",
+  "exclusions": "Stopped or failed attempts without metrics.json, validation, loading, CPU scoring, and other search overhead",
+  "unique_completed_runs": 60,
+  "summary_by_device": {
+    "cpu": {
+      "completed_runs": 4,
+      "train_tokens": 29573120,
+      "train_seconds": 1128.6978839000221
+    },
+    "cuda:0": {
+      "completed_runs": 56,
+      "train_tokens": 3342664704,
+      "train_seconds": 7820.154047701879
+    }
+  },
+  "entries": [
+    {
+      "run": "baseline-reproduction-s17/baseline",
+      "device": "cpu",
+      "seed": 17,
+      "train_tokens": 9830400,
+      "train_seconds": 396.26636920007877,
+      "checkpoint_sha256": "373ecbab12cc5e3e6f5004dcc23f6c93d593057b0a509cef392410739fb59d32",
+      "metrics_sha256": "2bdf0829f839771f902d7bcbbc3b7f9f4a54fe251fec35ba2d31fb5d72bb6d8a"
+    },
+    {
+      "run": "baseline-reproduction-s17/smoke",
+      "device": "cpu",
+      "seed": 17,
+      "train_tokens": 81920,
+      "train_seconds": 3.654980199993588,
+      "checkpoint_sha256": "a14173a2c6a0514e9c7a9ed54372e9352919beca5e88f9056e8a20afdc9f7278",
+      "metrics_sha256": "93cb73277cbb9584c5142dedc1df95571a2c4b133a89214a79501bb8ecebba9a"
+    },
+    {
+      "run": "batch64-study/double-tokens-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 157286400,
+      "train_seconds": 252.39686539955437,
+      "checkpoint_sha256": "44baed274116fbfa86a36d6e1f02d69955ea323d951771751a3262090f1fc48e",
+      "metrics_sha256": "9a51a43bf8bcf8cb524292897afc400b37bc116c32906b98e4a6ed5d4e3141aa"
+    },
+    {
+      "run": "batch64-study/equal-tokens-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 124.91812840034254,
+      "checkpoint_sha256": "54706c40d8d67a30b9fd205ba0206e70110df5502c8e06327f1f9e8ee08ea288",
+      "metrics_sha256": "0681a67d7126f4ed125516ae471160101798c474b7b8a4a5003cd673ae78c89b"
+    },
+    {
+      "run": "distillation-14400/ce-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 264.5150481997989,
+      "checkpoint_sha256": "63922321a64c47070895593d45033671f4e3dc6e9dbbcc188b3809162d7f5578",
+      "metrics_sha256": "7e2936cd65baab391a99939e187e405357817bed880d235d16b8b98cab60c778"
+    },
+    {
+      "run": "distillation-14400/kd025-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 531.6283021003474,
+      "checkpoint_sha256": "b9557e41fdc853680e110e6496b6f6a0701f3b671b77cf2d9d712ac5f4082772",
+      "metrics_sha256": "27787f49a87ffe586407215a32d0b08d87d05db6feb0fd70b7faaf0c7302f690"
+    },
+    {
+      "run": "distillation-14400/kd05-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 531.0663524006959,
+      "checkpoint_sha256": "8cf183df0ce5870969c9c2c30cbbf7be9d858c5c7bf01ed86e98f1304b077b20",
+      "metrics_sha256": "b1110a40647ac9f6fe1d7c9034178689e85e13b889d1f6c1208a18af7fe20f0d"
+    },
+    {
+      "run": "distillation-14400/kd05-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 117964800,
+      "train_seconds": 533.1205379995517,
+      "checkpoint_sha256": "d7b3d3ba859b9db3f6908f9b388943f999a39cd136558af46feb42ec52295b3b",
+      "metrics_sha256": "d6b8cc0d44f8f9e4459fbd37143258f185ec303aa0fae0605e3cbfbb6aff1b33"
+    },
+    {
+      "run": "distillation-14400/kd065-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 528.043777999992,
+      "checkpoint_sha256": "23d8fab321116c1cb528e680e1afe6707da3e036984a546443a90a3ae288abac",
+      "metrics_sha256": "97aba65901428a9c89e5cd5e85c6b3472a82505b26586775662401e35030250c"
+    },
+    {
+      "run": "distillation-14400/kd075-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 531.434383899672,
+      "checkpoint_sha256": "d25dc08493d0ec7e819e09ef9bcc823005b9012c7011dfc92222aad1db55aa94",
+      "metrics_sha256": "fd801f125a7dd4cb56cb6fca3df9a8a28cef5989e54cb005134d27dad939a6b0"
+    },
+    {
+      "run": "distillation-14400/kd075-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 117964800,
+      "train_seconds": 531.5594342991244,
+      "checkpoint_sha256": "7db1ae98ec7d1c79e808182a696d64330cc122e07a83a362d57d3ab85f2877a5",
+      "metrics_sha256": "d4f51a6e1b70ac47b076744c20829d1e43d7879ed6a38ada3e4ce62505bb2877"
+    },
+    {
+      "run": "distillation-14400/kd085-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 117964800,
+      "train_seconds": 528.0493429000126,
+      "checkpoint_sha256": "214cd1bd7b846b562f9449531868991d4eadcd5833ff24b027673941e0ce105c",
+      "metrics_sha256": "75744159dde0bac90c95f3d1e7f4a7900e8f42c46edf7627155ec50fdde851cb"
+    },
+    {
+      "run": "distillation-14400/smoke-snapshot",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 1024,
+      "train_seconds": 0.3095271000638604,
+      "checkpoint_sha256": "1c2197bfa247daa3ae0eef3f66055b78789717efa00d15f8830f4b0d43b2c2e6",
+      "metrics_sha256": "8121b66fe9bb88050febd2b862df54591750313bbede4f28ef7c4f7147005559"
+    },
+    {
+      "run": "distillation-study/ce256",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 173.91771980025806,
+      "checkpoint_sha256": "b39ed32ac50fc8e8d46a584c9dc278cd494ba933308448084dbbc45be9fe1ba9",
+      "metrics_sha256": "24861fc53f4026300a54bdfe8a6c3e3987705498acb5a839fa408518e38cf655"
+    },
+    {
+      "run": "distillation-study/kd256",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 352.12936450052075,
+      "checkpoint_sha256": "be19d0aa14b7322e56ce91ad122ca0fb7b2f70dd83dbd89f81a2982f011b76ef",
+      "metrics_sha256": "8db5bcd66b11500db3f233dfd5bccd04eeb8c3eba653543b95694f49618c1e46"
+    },
+    {
+      "run": "distillation-study/smoke-kd256",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 81920,
+      "train_seconds": 1.0753687999676913,
+      "checkpoint_sha256": "fc72ab79aebbaa79508a8c56857bcdd839875206dc10bc6125796a2f5c271607",
+      "metrics_sha256": "0dba96835646948dd6d28bcc5de6e293ceecd2d16c2ed2b434fb24645db7e9f4"
+    },
+    {
+      "run": "distillation-study/smoke-kd320",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 81920,
+      "train_seconds": 0.659991400083527,
+      "checkpoint_sha256": "bacbd9a19118197c0e61852bb7fb6463b2ed55bd7cff0d94dd37f9ae834df4e0",
+      "metrics_sha256": "a04a3e9aacb5e46f14b586f7f47d2d8af8be16618c3a7605c65913e3e2106397"
+    },
+    {
+      "run": "dropout-14400/p05-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 117964800,
+      "train_seconds": 198.05765750072896,
+      "checkpoint_sha256": "f187c8b3c837462613914a68529f21199d5f9572b46b0259f7843d7536b9160f",
+      "metrics_sha256": "98d0dfb86ca15d2b597e7f2e34c16e833aa4170e88e7f4ff365e4eff63de9165"
+    },
+    {
+      "run": "dropout-14400/p05-s41",
+      "device": "cuda:0",
+      "seed": 41,
+      "train_tokens": 117964800,
+      "train_seconds": 198.57478859904222,
+      "checkpoint_sha256": "98062018afdc691e2b0e2485f06659bd84efce27416f70623f62447e902c38d0",
+      "metrics_sha256": "581e52e635d710a984231daca604b083748a2be98a9b6342faa984c2a787f26e"
+    },
+    {
+      "run": "dropout-study/p05-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 134.25155610055663,
+      "checkpoint_sha256": "9fbc70683a8eb5c522695290bdad7fec948f63264a19888d14e9a194de1aa7b1",
+      "metrics_sha256": "47859d9ccd1c675007195b564c422bf3b91d78373ea406d05896444c450dff4d"
+    },
+    {
+      "run": "dropout-study/p05-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 78643200,
+      "train_seconds": 133.57218340062536,
+      "checkpoint_sha256": "904504198180ca4688d51ab27fb2c243a8e705f00e8286fa45ea638382f9eb6a",
+      "metrics_sha256": "ba41ba18f591a1e053a96d77d9f9469a03362fa8710f3e03131cb57c2914a474"
+    },
+    {
+      "run": "dropout-study/p05-s41",
+      "device": "cuda:0",
+      "seed": 41,
+      "train_tokens": 78643200,
+      "train_seconds": 131.30160680017434,
+      "checkpoint_sha256": "c3e4aeea04b9cf96735f6767c37fee94bbe0b23c9d1145a63b9bdfc21a3259d7",
+      "metrics_sha256": "d5d2da6c516744e7da206465c65d4d92bf043173953d42f60a8a7d4e916115f5"
+    },
+    {
+      "run": "fusion-ablation-2400/additive-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 19660800,
+      "train_seconds": 25.515245499904267,
+      "checkpoint_sha256": "c61d750c5b2700a4ee14db6b233cd59987a9201f2193ec6a04d9f13bafeba10d",
+      "metrics_sha256": "27ec1a141e35a8b354edb039b09d83fd871580160370e08c77735aed4a1bcb0a"
+    },
+    {
+      "run": "fusion-ablation-2400/additive-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 19660800,
+      "train_seconds": 25.33744729985483,
+      "checkpoint_sha256": "96bd4384bc5471dc5c681f5140159607f91ccb538b00b01adfe67fe33cadd79e",
+      "metrics_sha256": "9b93c65e402903d54b40ebf187a36255bcc55edeb939ddf4b3ab0c85512d254f"
+    },
+    {
+      "run": "fusion-ablation-2400/geglu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 19660800,
+      "train_seconds": 25.958024799940176,
+      "checkpoint_sha256": "6b6e60f907e5607778d82642b33c7719dba289cd8bfe8dd04097a3fe65e2e474",
+      "metrics_sha256": "47cb8988dc40d6f5ae12fada740ff000e6049389a6a547dc55b9ec0520220c01"
+    },
+    {
+      "run": "fusion-ablation-2400/geglu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 19660800,
+      "train_seconds": 26.264124699984677,
+      "checkpoint_sha256": "3c6103a8879947fa2a8c0f231b2984de37230dcdd105828403821e1b5d9ef906",
+      "metrics_sha256": "efaeb64172390bd997f8107123de5f9df9d898adf84b395103c5c7c596f205bc"
+    },
+    {
+      "run": "geglu-gpu-2400/geglu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 19660800,
+      "train_seconds": 27.919971900060773,
+      "checkpoint_sha256": "0dff81e787543cf8df5f1e3b15b01acb2333452e2e3c6a09a3f9066f40422da0",
+      "metrics_sha256": "4d8b4de87853e41eba5a01ad16cd96f80e2c0afb8ec07bb9e3a71bdf5067ac50"
+    },
+    {
+      "run": "geglu-gpu-2400/geglu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 19660800,
+      "train_seconds": 27.11883779987693,
+      "checkpoint_sha256": "b75f7033f10740e565dca5fec5f59a9481a98ce62cd0a7bbcaf9b525f89ce37d",
+      "metrics_sha256": "dde8dc89b9c67dc93818ec8caed6a7f976fad3bac7214e5189374256552109d0"
+    },
+    {
+      "run": "geglu-gpu-2400/gelu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 19660800,
+      "train_seconds": 24.886066499981098,
+      "checkpoint_sha256": "2fed1264546e5b5ad05df69bf7be3ff960553306d3d673a745046511218303a8",
+      "metrics_sha256": "9041e969bf5e91f2b066b5f36dfdcf9aa3ea1d19501cc0ba9803946523df19b1"
+    },
+    {
+      "run": "geglu-gpu-2400/gelu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 19660800,
+      "train_seconds": 25.73095800005831,
+      "checkpoint_sha256": "df7258931613986835fb523e36f4d53dd34fc977150363abc9565e995d73c735",
+      "metrics_sha256": "72017562da6b37b37b5d5697430a0a177d65984f5cf170586b66bd069fd54584"
+    },
+    {
+      "run": "geglu-gpu-4800/geglu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 51.28204389940947,
+      "checkpoint_sha256": "7b1f90edc24497779ab5ac124f1c96ced0cc8a1821942a8b63c64217dc8f34b7",
+      "metrics_sha256": "92de483fb9cf7f7ca03229e53fc046126743a1e040c809412af1b148f05a4001"
+    },
+    {
+      "run": "geglu-gpu-4800/geglu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 39321600,
+      "train_seconds": 51.88329769996926,
+      "checkpoint_sha256": "96dd604ff6001e8a58ec848888c07002a9da997027f697a42b90c9a0668f3cf4",
+      "metrics_sha256": "d07cd4b18d3c6337cfe0dfa177ac3e5208753e94c3aa22cd4553666203df86b3"
+    },
+    {
+      "run": "geglu-gpu-4800/gelu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 52.64555709983688,
+      "checkpoint_sha256": "b117fbce0b516b8a2cd9fd66ceb180a7bd864418a4a4acc9fb4bee208c0f1f46",
+      "metrics_sha256": "a72f0aba40587ba860a87528575af00c9e4a2beeb223745950a87c3afa6a2aa0"
+    },
+    {
+      "run": "geglu-gpu-4800/gelu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 39321600,
+      "train_seconds": 52.616347500123084,
+      "checkpoint_sha256": "e938e625a376e7a5e770d1a7720e8f4744a5ff9edc17139b26b19bb06eb04dd0",
+      "metrics_sha256": "b9a4dadd2d5f1d3d1a300871b6744d9fec9e1c201853548438800cf46204a9a5"
+    },
+    {
+      "run": "geglu-gpu-comparison/geglu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 9830400,
+      "train_seconds": 10.887158699915744,
+      "checkpoint_sha256": "ea44f53374a981e2f20e8f12777743e64cef7f47f700b1fa3315d6da9e9af9d3",
+      "metrics_sha256": "3da806996da4669b8da85b6c483f3c58628707ed5a846b4f2f22484002dedecb"
+    },
+    {
+      "run": "geglu-gpu-comparison/geglu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 9830400,
+      "train_seconds": 10.922272800002247,
+      "checkpoint_sha256": "ca788a97ead7e0fb2f3648f26fa07098b049c3323d769899685b03f411766300",
+      "metrics_sha256": "c12889365bada2547aa5888d09fb6c092ec51849587f35db8d09ca420421e6fa"
+    },
+    {
+      "run": "geglu-gpu-comparison/gelu-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 9830400,
+      "train_seconds": 10.88760369992815,
+      "checkpoint_sha256": "a2e6ebf0574c1d21bb178cd7b78e0e303de82affa65faa2270f027cb0a4dfc70",
+      "metrics_sha256": "a8c65a714b3d8faf0f061dbe1d68d21ef5e9abbef7958844de0cac80d5e69729"
+    },
+    {
+      "run": "geglu-gpu-comparison/gelu-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 9830400,
+      "train_seconds": 10.936217299895361,
+      "checkpoint_sha256": "372f9af4077740ada9d57b6c38e57d155d5a452946202ba2f97334fcd20165db",
+      "metrics_sha256": "e05eb8c6cbae66a0831b8b46762ad89a8ee52fe88a13985f9068d7d86209d658"
+    },
+    {
+      "run": "gpu-setup-check/smoke-bf16",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 81920,
+      "train_seconds": 0.3214177000336349,
+      "checkpoint_sha256": "606c0f49abe56c99af0b9bfab16a671263d256cdcef49b23fffe1fe555828e83",
+      "metrics_sha256": "9bab423be111f6adcb57e7078da3dedf413788868222fc1b337704ea71643c6e"
+    },
+    {
+      "run": "gpu-setup-check/smoke-fp32",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 81920,
+      "train_seconds": 0.6381666999077424,
+      "checkpoint_sha256": "2e3858894064e1830cc6228732eabb37fc8d560963873a8503529f71b58c52ef",
+      "metrics_sha256": "35021c075c9a981695a87f9121fc7f31e2d8a736488a53d155e625ef135e4ce8"
+    },
+    {
+      "run": "late-average-study/base-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 130.1930701995734,
+      "checkpoint_sha256": "4c8cd991100fcc093e8e107c552a3648efc918cc1be2c02c7588d9aa373d155a",
+      "metrics_sha256": "d1a0ef5561cc4db3bd3410c5f63d771d795a23c4b9139095e9be2a87fdb6890c"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-default-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 42.9837065001484,
+      "checkpoint_sha256": "1f925cbc97221913e7cd1c81bc4f221ca492e6ef2755934d9bf68a933b564806",
+      "metrics_sha256": "96a28c66fdfc1ad5f99448999024f1a03cc92c85477cf761447db3e199243a4e"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-default-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 39321600,
+      "train_seconds": 42.83412990020588,
+      "checkpoint_sha256": "715d0d4bd1371172c3c36b6b382577ad21c61c4447a33c5f45d9cb0f43cf3fa4",
+      "metrics_sha256": "8ea53b86990f1fe761a9aad543cd5475e8b197ce9b9cbd62d9750003072c7cb9"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-lowfloor-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 42.642730000428855,
+      "checkpoint_sha256": "7d8cfbcf11774576f0fc1d0858b8f563e4391004ddb46c8bf1b6b639c21a0af7",
+      "metrics_sha256": "1c1cef0f100b92800922aa89b44021a161ce452009e212618611fe6c23d3fee5"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-peak13e4-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 42.87489360035397,
+      "checkpoint_sha256": "611deee91da4030fe68c7d1f7b022692308e99e14cff5bda253effc16e188f10",
+      "metrics_sha256": "938439bbd8a88fcaa8c64ea4440d76a402bc923206bfcb1f32bb71e8c7198390"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-peak13e4-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 39321600,
+      "train_seconds": 43.043945899931714,
+      "checkpoint_sha256": "3ad67126e7067ef3409c21b8538029de2e9213a202957313226dbfbf9e63f55b",
+      "metrics_sha256": "27f8d5b3fa5ceb1a0d9acab625f95be541706529a3e5dbc82e33ae14f9f7df95"
+    },
+    {
+      "run": "lr-sweep-4800/gelu-peak7e4-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 42.73376589990221,
+      "checkpoint_sha256": "ee6ce4cab2b9f8507e952e175b0a105e6cd01ce0d19ee0a27bd0f088cbea6325",
+      "metrics_sha256": "dc8a395b0f82e47eb8eae5ccc3e7d5313748213a50ef89f97e7e103a9d4d983a"
+    },
+    {
+      "run": "norm-comparison/layernorm-s17",
+      "device": "cpu",
+      "seed": 17,
+      "train_tokens": 9830400,
+      "train_seconds": 359.59173929993995,
+      "checkpoint_sha256": "faf250baf993e77338e6687208fb01f5bdb399e08128f90c253b7b1137f7895f",
+      "metrics_sha256": "44e2151d2b63b2bced5ea89c502b9b92b088b98de48b9bf1bf781f993e4a202b"
+    },
+    {
+      "run": "norm-comparison/rmsnorm-s17",
+      "device": "cpu",
+      "seed": 17,
+      "train_tokens": 9830400,
+      "train_seconds": 369.18479520000983,
+      "checkpoint_sha256": "19fafab16602b5ab1309c7eeba26560d520d16327a69a6e5499972b7bbe99525",
+      "metrics_sha256": "e38d0172ce0913439d5176da179b6de21ca174325541d0b561d451ae64961f23"
+    },
+    {
+      "run": "regularization-ablation-14400/p0-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 117964800,
+      "train_seconds": 195.02662129956298,
+      "checkpoint_sha256": "79386d1dc7ea5d79e2c8c16eb098ceb82b2a12d6a91524215482e0a4f37ea822",
+      "metrics_sha256": "a1e87199d278bf5ce81c822e29b91d1903be5934185f915ec851e30a47d8e614"
+    },
+    {
+      "run": "regularization-ablation-14400/p0-s41",
+      "device": "cuda:0",
+      "seed": 41,
+      "train_tokens": 117964800,
+      "train_seconds": 195.39582970016636,
+      "checkpoint_sha256": "7c28e78c5ba543c8a902057fdea17c66703c498148f5c6e3a4392c4914d39f9c",
+      "metrics_sha256": "025772bceaf84dc4634e72e55a8607d5d146343fa929efa7692ddbc3c91cc4ee"
+    },
+    {
+      "run": "width-control-9600/gelu-width128-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 85.71418579947203,
+      "checkpoint_sha256": "061a5babd0fb8bc77c258fe3fc91196f9587a2e54171dcd4299468718b9ef5ff",
+      "metrics_sha256": "5ea3ccc5857feec9824e0142be07ab695e75bf983c7fc156cbbbba1a71a7327a"
+    },
+    {
+      "run": "width-control-9600/gelu-width128-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 78643200,
+      "train_seconds": 86.08349270117469,
+      "checkpoint_sha256": "b5f94a5b37eebc9211d2b57cc4fedefc6d9f61710b7dea47dc78e88d027c82f4",
+      "metrics_sha256": "8689ab302c4788426eb5a02ffc64702afd669c8ed5ff86009a0750efcb7943d6"
+    },
+    {
+      "run": "width160-4800/gelu-width160-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 39321600,
+      "train_seconds": 56.26230280078016,
+      "checkpoint_sha256": "eb4c2f210ee2d1e1bf11462360634dbbd9b46f2529936505c3df43ad6fb3215d",
+      "metrics_sha256": "fd7c5262aa73f32b0da89f2461ef8782dcb3c662949f83aa60066a3b5baaf0ab"
+    },
+    {
+      "run": "width160-4800/gelu-width160-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 39321600,
+      "train_seconds": 56.51831000042148,
+      "checkpoint_sha256": "650ba0d204785b68f8d9dc2fddb283084e8e89e530e15b6957f9097f45330633",
+      "metrics_sha256": "1b9578612d9d9e42d587bde7bc892b1dbc0f7da5dd8b79cc72db817ae9ec961b"
+    },
+    {
+      "run": "width160-9600/gelu-width160-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 111.51167500019073,
+      "checkpoint_sha256": "509c791ec902222dde757919eb5685a01f6ccf2a32ac03c20784674df1aaceda",
+      "metrics_sha256": "68177e1ddf0d6e9b83d1a87e51b21da221b6b9c58f6c1d938019bae9c2821ff8"
+    },
+    {
+      "run": "width160-9600/gelu-width160-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 78643200,
+      "train_seconds": 112.06093039945699,
+      "checkpoint_sha256": "06b8b7a910897f4086a48e9fd9b9fb4ccd6b6c625dfe6ecbfe5906cc2d54d833",
+      "metrics_sha256": "ea26ab452a7b172ece024382f346a08226c8cc5c69e85479138fb3928e976efd"
+    },
+    {
+      "run": "width192-9600/gelu-width192-s17",
+      "device": "cuda:0",
+      "seed": 17,
+      "train_tokens": 78643200,
+      "train_seconds": 131.25863429997116,
+      "checkpoint_sha256": "c5671bd9a6c6e693038bff43f91ee2ecd867251bd1080f792650f3dd0941795f",
+      "metrics_sha256": "72c27abde478b4214dfe656aca363144aa66a35149a11b19a95e21d06f81efdf"
+    },
+    {
+      "run": "width192-9600/gelu-width192-s23",
+      "device": "cuda:0",
+      "seed": 23,
+      "train_tokens": 78643200,
+      "train_seconds": 130.03548309975304,
+      "checkpoint_sha256": "7e8b2684684fd26a0a711ebc00d3597f993137c205b4ba175acc0a7c5119ec79",
+      "metrics_sha256": "e9ef4ffec6cecd456f3efaaaec2da2591ad09f410f5b0b8549567c2b8ce09e9a"
+    },
+    {
+      "run": "width192-9600/gelu-width192-s41",
+      "device": "cuda:0",
+      "seed": 41,
+      "train_tokens": 78643200,
+      "train_seconds": 130.647643400589,
+      "checkpoint_sha256": "8a6c544a295550408cd52ea0f1c3d124f2c852f82a1555c0609c0e43910a1856",
+      "metrics_sha256": "aba5c55509dc6a41733e962fc3134a38ca9749cbd39ea8e12055bbf2b8b679f2"
+    }
+  ]
+}

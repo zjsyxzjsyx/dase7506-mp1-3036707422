@@ -1,0 +1,32 @@
+{
+  "selection_split": "validation",
+  "teacher_checkpoint": "runs/temperature-3/t105/checkpoint.pt",
+  "student_config": "configs/gelu_width256.json",
+  "steps_per_run": 14400,
+  "tokens_per_run": 117964800,
+  "total_runs": 6,
+  "total_student_train_tokens": 707788800,
+  "total_student_gpu_train_seconds": 2923.32405889919,
+  "snapshot_steps": [12600, 12900, 13200, 13500, 13800, 14100, 14400],
+  "averaging_method": "ema",
+  "averaging_decay": 0.7,
+  "cpu_fp32_validation": [
+    {"name": "ce-s17", "seed": 17, "soft_weight": 0.0, "final_bpb": 1.743722704417065, "ema_bpb": 1.7266256563251183},
+    {"name": "kd025-s17", "seed": 17, "soft_weight": 0.25, "final_bpb": 1.5913962068525935, "ema_bpb": 1.5821527832319295},
+    {"name": "kd05-s17", "seed": 17, "soft_weight": 0.5, "final_bpb": 1.5214597028506585, "ema_bpb": 1.5159535067845653},
+    {"name": "kd075-s17", "seed": 17, "soft_weight": 0.75, "final_bpb": 1.5001468531213331, "ema_bpb": 1.4970794672419938},
+    {"name": "kd05-s23", "seed": 23, "soft_weight": 0.5, "final_bpb": 1.5187947210594268, "ema_bpb": 1.5130882716786236},
+    {"name": "kd075-s23", "seed": 23, "soft_weight": 0.75, "final_bpb": 1.5004397249871515, "ema_bpb": 1.4971758838862588}
+  ],
+  "two_seed_ema_mean_bpb": {"soft_weight_0.5": 1.51452088923159, "soft_weight_0.75": 1.49712767556413},
+  "selected_weight_for_dual_student": 0.75,
+  "dual_student": {
+    "checkpoint": "runs/distillation-14400/dual-kd075/checkpoint.pt",
+    "checkpoint_sha256": "70b7d3366f9a656cfc5c374d143baf968347d2682a75ebc2e47732a80078a87c",
+    "freeze_manifest": "runs/distillation-14400/dual-kd075/freeze_manifest.json",
+    "validation_bpb": 1.4782045429387316,
+    "validation_cpu_seconds_median": 22.836682999972254,
+    "validation_baseline_cpu_seconds_median": 4.627981300000101,
+    "validation_time_ratio": 4.934480396446665
+     }
+}

@@ -1,0 +1,71 @@
+{
+  "selection_split": "validation",
+  "completed": [
+    {
+      "name": "ce256",
+      "width": 256,
+      "soft_weight": 0.0,
+      "teacher_sha256": null,
+      "steps": 9600,
+      "train_tokens": 78643200,
+      "train_seconds": 173.91771980025806,
+      "validation_gpu_bpb": 1.6697314552383795,
+      "validation_cpu_bpb": 1.6697314625601443,
+      "validation_cpu_seconds": 12.12419980019331,
+      "checkpoint_sha256": "b39ed32ac50fc8e8d46a584c9dc278cd494ba933308448084dbbc45be9fe1ba9"
+    },
+    {
+      "name": "kd256",
+      "width": 256,
+      "soft_weight": 0.5,
+      "teacher_sha256": "dc19ace484134e6700eba49981fb1a8f8457adfc6c1a5f4aff38d630016505d5",
+      "steps": 9600,
+      "train_tokens": 78643200,
+      "train_seconds": 352.12936450052075,
+      "validation_gpu_bpb": 1.5232229703915174,
+      "validation_cpu_bpb": 1.523222946169161,
+      "validation_cpu_seconds": 12.082037199987099,
+      "checkpoint_sha256": "be19d0aa14b7322e56ce91ad122ca0fb7b2f70dd83dbd89f81a2982f011b76ef"
+    }
+  ],
+  "width256_distillation_gain_bpb": 0.14650851639098317,
+  "width320_attempts": [
+    {
+      "name": "ce320",
+      "peak_lr": 0.001,
+      "status": "nonfinite",
+      "last_logged_step": 1800,
+      "last_logged_train_seconds": 48.56428059982136,
+      "log": "runs\\distillation-study\\ce320-train.log"
+    },
+    {
+      "name": "ce320-lr7e4",
+      "peak_lr": 0.0007,
+      "status": "nonfinite",
+      "last_logged_step": 600,
+      "last_logged_train_seconds": 16.454687200021,
+      "log": "runs\\distillation-study\\ce320-lr7e4-train.log"
+    },
+    {
+      "name": "ce320-lr3e4",
+      "peak_lr": 0.0003,
+      "status": "stopped_after_loss_collapse",
+      "last_logged_step": 4600,
+      "last_logged_train_seconds": 125.0288331003394,
+      "log": "runs\\distillation-study\\ce320-lr3e4-train.log"
+    },
+    {
+      "name": "ce320-lr1e4",
+      "peak_lr": 0.0001,
+      "status": "stopped_after_loss_collapse",
+      "last_logged_step": 2700,
+      "last_logged_train_seconds": 73.5113017000258,
+      "log": "runs\\distillation-study\\ce320-lr1e4-train.log"
+    }
+  ],
+  "width320_comparison_conclusion": "No valid paired width-320 result under tested four-head recipes; do not infer that width 256 is globally optimal.",
+  "test_evaluated": true,
+  "test_selection_note": "The width-256 distilled checkpoint was frozen on validation before three independent full-test scores; test results were not used to tune training.",
+  "selected_frozen_checkpoint": "runs/distillation-study/kd256/checkpoint.pt",
+  "test_summary": "runs/distillation-study/kd256/test_summary.json"
+}

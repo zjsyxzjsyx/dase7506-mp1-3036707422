@@ -1,0 +1,32 @@
+{"step": 100, "hard_loss": 5.383937835693359, "soft_loss": null, "loss": 5.383937835693359, "seconds": 2.8844337000045925}
+{"step": 200, "hard_loss": 4.717132091522217, "soft_loss": null, "loss": 4.717132091522217, "seconds": 5.578143700025976}
+{"step": 300, "hard_loss": 4.56090784072876, "soft_loss": null, "loss": 4.56090784072876, "seconds": 8.274558899924159}
+{"step": 400, "hard_loss": 4.302811145782471, "soft_loss": null, "loss": 4.302811145782471, "seconds": 10.972849699901417}
+{"step": 500, "hard_loss": 4.277839660644531, "soft_loss": null, "loss": 4.277839660644531, "seconds": 13.67112489999272}
+{"step": 600, "hard_loss": 4.142075061798096, "soft_loss": null, "loss": 4.142075061798096, "seconds": 16.36837309994735}
+{"validation": {"step": 600, "bpb": 2.0332625528813497, "token_ppl": 73.42012516212414, "nll_nats": 1617943.9017877034, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6695922000799328}}
+{"step": 700, "hard_loss": 3.8827648162841797, "soft_loss": null, "loss": 3.8827648162841797, "seconds": 19.07158439978957}
+{"step": 800, "hard_loss": 3.886880874633789, "soft_loss": null, "loss": 3.886880874633789, "seconds": 21.77364829974249}
+{"step": 900, "hard_loss": 3.737706422805786, "soft_loss": null, "loss": 3.737706422805786, "seconds": 24.478646999923512}
+{"step": 1000, "hard_loss": 3.8653695583343506, "soft_loss": null, "loss": 3.8653695583343506, "seconds": 27.184700299752876}
+{"step": 1100, "hard_loss": 3.736598491668701, "soft_loss": null, "loss": 3.736598491668701, "seconds": 29.89151499979198}
+{"step": 1200, "hard_loss": 3.582693099975586, "soft_loss": null, "loss": 3.582693099975586, "seconds": 32.59498839988373}
+{"validation": {"step": 1200, "bpb": 1.8149024452030118, "token_ppl": 46.284742818427915, "nll_nats": 1444186.5067522135, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6319087999872863}}
+{"step": 1300, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 35.281681099906564}
+{"step": 1400, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 37.93526419973932}
+{"step": 1500, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 40.583923999918625}
+{"step": 1600, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 43.24348539975472}
+{"step": 1700, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 45.91540389996953}
+{"step": 1800, "hard_loss": NaN, "soft_loss": null, "loss": NaN, "seconds": 48.56428059982136}
+Traceback (most recent call last):
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\train_distilled.py", line 131, in <module>
+    main()
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\train_distilled.py", line 97, in main
+    result = score(student, *data['validation'], device, 'fp32')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\.venv-gpu\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\homework\7506\MP1_student_starter\MP1_student_starter\code\evaluate.py", line 23, in score
+    raise ValueError('Return finite log probabilities of shape [batch, time, 2048].')
+ValueError: Return finite log probabilities of shape [batch, time, 2048].

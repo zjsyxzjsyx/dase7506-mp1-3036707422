@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "precision": "fp32",
+  "torch_intraop_threads": 4,
+  "additional_python_worker_threads": 0,
+  "protocol": "7506-mp1-wt2-v2",
+  "source_checkpoint_sha256": "70b7d3366f9a656cfc5c374d143baf968347d2682a75ebc2e47732a80078a87c",
+  "checkpoint_sha256": "40c3564584134b016cc6cba406704f3ebb5bae95bca9dec3b2521be3afb5cfa5",
+  "implementation_sha256": "a96b76e2dc253d63f285941d3a4ce9a18c56d9b955a70cc79490c75f942c1c8e",
+  "evaluation_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+  "selection_split": "validation",
+  "selected_threshold": 0.16,
+  "validation_bpb": 1.4818757851138809,
+  "validation_alternative_threshold_0_25_bpb": 1.4799317731683894
+}

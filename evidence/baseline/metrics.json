@@ -1,0 +1,135 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 7.575193600030616,
+  "train_seconds": 396.26636920007877,
+  "validation": {
+    "bpb": 2.071083507359242,
+    "token_ppl": 79.5282389624687,
+    "nll_nats": 1648039.465476997,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 5.617435100022703
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.931267261505127,
+      "seconds": 34.10671039996669
+    },
+    {
+      "step": 200,
+      "loss": 5.241191864013672,
+      "seconds": 68.30259219999425
+    },
+    {
+      "step": 300,
+      "loss": 4.939333438873291,
+      "seconds": 101.9355148000177
+    },
+    {
+      "step": 400,
+      "loss": 4.678946018218994,
+      "seconds": 136.00264279998373
+    },
+    {
+      "step": 500,
+      "loss": 4.665628433227539,
+      "seconds": 170.33800079999492
+    },
+    {
+      "step": 600,
+      "loss": 4.5275187492370605,
+      "seconds": 203.06408529996406
+    },
+    {
+      "step": 700,
+      "loss": 4.4383544921875,
+      "seconds": 235.43631429993547
+    },
+    {
+      "step": 800,
+      "loss": 4.458526134490967,
+      "seconds": 267.14027579990216
+    },
+    {
+      "step": 900,
+      "loss": 4.380016326904297,
+      "seconds": 299.24311539996415
+    },
+    {
+      "step": 1000,
+      "loss": 4.35355806350708,
+      "seconds": 331.5425553000532
+    },
+    {
+      "step": 1100,
+      "loss": 4.31510066986084,
+      "seconds": 363.9897352999542
+    },
+    {
+      "step": 1200,
+      "loss": 4.3169050216674805,
+      "seconds": 396.26606519997586
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 300,
+      "bpb": 2.331086778286514,
+      "token_ppl": 137.75656688037546,
+      "nll_nats": 1854933.9002589192,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 6.288136100047268
+    },
+    {
+      "step": 600,
+      "bpb": 2.184154256305217,
+      "token_ppl": 100.99044342840378,
+      "nll_nats": 1738014.1362190805,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 5.730323700001463
+    },
+    {
+      "step": 900,
+      "bpb": 2.106114116377486,
+      "token_ppl": 85.63810758591893,
+      "nll_nats": 1675914.6457662608,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 5.99361919995863
+    },
+    {
+      "step": 1200,
+      "bpb": 2.071083507359242,
+      "token_ppl": 79.5282389624687,
+      "nll_nats": 1648039.465476997,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 5.847965999972075
+    }
+  ],
+  "intermediate_validation_seconds": 23.860044999979436,
+  "process_seconds": 433.3283599000424,
+  "torch_version": "2.7.1+cpu",
+  "threads": 4,
+  "checkpoint_sha256": "373ecbab12cc5e3e6f5004dcc23f6c93d593057b0a509cef392410739fb59d32",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

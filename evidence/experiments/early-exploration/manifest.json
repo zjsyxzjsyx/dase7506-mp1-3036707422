@@ -1,0 +1,195 @@
+{
+  "description": "Primary training and CPU FP32 validation JSON for early experiments cited in report.docx",
+  "files": [
+    {
+      "source": "MP1_student_starter/code/runs/norm-comparison/layernorm-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/norm-comparison/layernorm-s17/metrics.json",
+      "sha256": "44e2151d2b63b2bced5ea89c502b9b92b088b98de48b9bf1bf781f993e4a202b"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/norm-comparison/layernorm-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/norm-comparison/layernorm-s17/validation_repeat1.json",
+      "sha256": "e7365f80ec5f28dcb290e50aee1c1ad72e03c2fd76677d21fc9a619e5646d598"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/norm-comparison/rmsnorm-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/norm-comparison/rmsnorm-s17/metrics.json",
+      "sha256": "e38d0172ce0913439d5176da179b6de21ca174325541d0b561d451ae64961f23"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/norm-comparison/rmsnorm-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/norm-comparison/rmsnorm-s17/validation_repeat1.json",
+      "sha256": "d787401338ada5947dd03a5063638de556f4ee61ca4ff92a6ef6abe3e41cdd85"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/gelu-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/gelu-s17/metrics.json",
+      "sha256": "9041e969bf5e91f2b066b5f36dfdcf9aa3ea1d19501cc0ba9803946523df19b1"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/gelu-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/gelu-s17/validation_repeat1.json",
+      "sha256": "631fe1b3b181b9b892a28035de0c944613884108ebecd93fe25146575fe4817b"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/geglu-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/geglu-s17/metrics.json",
+      "sha256": "4d8b4de87853e41eba5a01ad16cd96f80e2c0afb8ec07bb9e3a71bdf5067ac50"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/geglu-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/geglu-s17/validation_repeat1.json",
+      "sha256": "8bbdef6525a96003a4f10a97317977425d4570c13e7f3cdd8bb66371d629bd54"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/gelu-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/gelu-s23/metrics.json",
+      "sha256": "72017562da6b37b37b5d5697430a0a177d65984f5cf170586b66bd069fd54584"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/gelu-s23/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/gelu-s23/validation_repeat1.json",
+      "sha256": "135a49304d34de2395e7c1e3371040ed85a5e6544ba8b6aa9d90ba8e9dfa688d"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/geglu-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/geglu-s23/metrics.json",
+      "sha256": "dde8dc89b9c67dc93818ec8caed6a7f976fad3bac7214e5189374256552109d0"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-2400/geglu-s23/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-2400/geglu-s23/validation_repeat1.json",
+      "sha256": "2a267b90a42bc6bba2e07164f6df52b3455ff4ae2bd7969efca33c4f9db1d806"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/gelu-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/gelu-s17/metrics.json",
+      "sha256": "a72f0aba40587ba860a87528575af00c9e4a2beeb223745950a87c3afa6a2aa0"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/gelu-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/gelu-s17/validation_repeat1.json",
+      "sha256": "ffb216d2b9a689f772933d3dc66b8fefa8ff6190bb9c21861d0df6ff68ca2f5e"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/geglu-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/geglu-s17/metrics.json",
+      "sha256": "92de483fb9cf7f7ca03229e53fc046126743a1e040c809412af1b148f05a4001"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/geglu-s17/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/geglu-s17/validation_repeat1.json",
+      "sha256": "df71a6ec3bcf7d4d842b9fd96757d49367601bfa42ceae0a35463835049bd179"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/gelu-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/gelu-s23/metrics.json",
+      "sha256": "b9a4dadd2d5f1d3d1a300871b6744d9fec9e1c201853548438800cf46204a9a5"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/gelu-s23/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/gelu-s23/validation_repeat1.json",
+      "sha256": "5f19803361355919c8b56239bb2e4a7a097b9922b1a386bc1de987e46f0af054"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/geglu-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/geglu-s23/metrics.json",
+      "sha256": "d07cd4b18d3c6337cfe0dfa177ac3e5208753e94c3aa22cd4553666203df86b3"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/geglu-gpu-4800/geglu-s23/validation_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/geglu-gpu-4800/geglu-s23/validation_repeat1.json",
+      "sha256": "dad4455575286b0b6fb3792ebce6b18f2afb9ab82b421381194553b13639b0e9"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-default-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-default-s17/metrics.json",
+      "sha256": "96a28c66fdfc1ad5f99448999024f1a03cc92c85477cf761447db3e199243a4e"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-default-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-default-s23/metrics.json",
+      "sha256": "8ea53b86990f1fe761a9aad543cd5475e8b197ce9b9cbd62d9750003072c7cb9"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-peak13e4-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-peak13e4-s17/metrics.json",
+      "sha256": "938439bbd8a88fcaa8c64ea4440d76a402bc923206bfcb1f32bb71e8c7198390"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-peak13e4-s17/validation_cpu_fp32.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-peak13e4-s17/validation_cpu_fp32.json",
+      "sha256": "f45e7e59a4f5b504d966821dd84b89693c8fea8f2a701f15015f7eb631a90da0"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-peak13e4-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-peak13e4-s23/metrics.json",
+      "sha256": "27f8d5b3fa5ceb1a0d9acab625f95be541706529a3e5dbc82e33ae14f9f7df95"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/lr-sweep-4800/gelu-peak13e4-s23/validation_cpu_fp32.json",
+      "staged": "evidence/experiments/early-exploration/lr-sweep-4800/gelu-peak13e4-s23/validation_cpu_fp32.json",
+      "sha256": "c3457b36854142399f512cfd759e1e3bbd1af7ba57fc97f517c0d280142572a6"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-4800/gelu-width160-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width160-4800/gelu-width160-s17/metrics.json",
+      "sha256": "fd7c5262aa73f32b0da89f2461ef8782dcb3c662949f83aa60066a3b5baaf0ab"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-4800/gelu-width160-s17/validation_cpu_fp32.json",
+      "staged": "evidence/experiments/early-exploration/width160-4800/gelu-width160-s17/validation_cpu_fp32.json",
+      "sha256": "eb30aa7ce58a3e4c98d067c6cb019d2f4491603c8f514148af9deb29e9ddcf6a"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-4800/gelu-width160-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width160-4800/gelu-width160-s23/metrics.json",
+      "sha256": "1b9578612d9d9e42d587bde7bc892b1dbc0f7da5dd8b79cc72db817ae9ec961b"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-4800/gelu-width160-s23/validation_cpu_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/width160-4800/gelu-width160-s23/validation_cpu_repeat1.json",
+      "sha256": "482a1b70b3698352cf0917264b79e9befe59cb5bfb0efc72d7c76af1dee4f226"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width-control-9600/gelu-width128-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width-control-9600/gelu-width128-s17/metrics.json",
+      "sha256": "5ea3ccc5857feec9824e0142be07ab695e75bf983c7fc156cbbbba1a71a7327a"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width-control-9600/gelu-width128-s17/validation_cpu_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/width-control-9600/gelu-width128-s17/validation_cpu_repeat1.json",
+      "sha256": "3700ed6ee52a78d558f725ef681835f734cdf6217bae25c4dd25d3f85285d28f"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width-control-9600/gelu-width128-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width-control-9600/gelu-width128-s23/metrics.json",
+      "sha256": "8689ab302c4788426eb5a02ffc64702afd669c8ed5ff86009a0750efcb7943d6"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width-control-9600/gelu-width128-s23/validation_cpu_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/width-control-9600/gelu-width128-s23/validation_cpu_repeat1.json",
+      "sha256": "e64765ea6c71701baba24687b4ad38286a16cedd024022a2679172c44ac93afa"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-9600/gelu-width160-s17/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width160-9600/gelu-width160-s17/metrics.json",
+      "sha256": "68177e1ddf0d6e9b83d1a87e51b21da221b6b9c58f6c1d938019bae9c2821ff8"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-9600/gelu-width160-s17/validation_cpu_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/width160-9600/gelu-width160-s17/validation_cpu_repeat1.json",
+      "sha256": "b8543f8f6b1195bace3fac02fa54638614d5415dacad65086841302e029160dc"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-9600/gelu-width160-s23/metrics.json",
+      "staged": "evidence/experiments/early-exploration/width160-9600/gelu-width160-s23/metrics.json",
+      "sha256": "ea26ab452a7b172ece024382f346a08226c8cc5c69e85479138fb3928e976efd"
+    },
+    {
+      "source": "MP1_student_starter/code/runs/width160-9600/gelu-width160-s23/validation_cpu_repeat1.json",
+      "staged": "evidence/experiments/early-exploration/width160-9600/gelu-width160-s23/validation_cpu_repeat1.json",
+      "sha256": "e664ea6af672944c3c45cc00567e5943ff714f45d0ec801252a49adf77e88529"
+    }
+  ]
+}

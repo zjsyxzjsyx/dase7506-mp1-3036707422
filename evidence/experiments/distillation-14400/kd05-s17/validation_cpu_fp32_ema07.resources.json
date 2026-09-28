@@ -1,0 +1,6 @@
+{
+  "peak_process_rss_bytes": 1704435712,
+  "checkpoint_bytes": 15011027,
+  "checkpoint_sha256": "9a49e88c4f433ec83d01d674d7cf1b302bcaaf1a23efd42ca951cc392acbfd1a",
+  "scope": "Fresh scorer process, including imports, loading and evaluation; checkpoint size is not total inference asset size."
+}

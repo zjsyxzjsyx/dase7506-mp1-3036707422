@@ -1,0 +1,51 @@
+{
+  "selection_split": "validation",
+  "selected_validation_bpb": 1.5083678179015658,
+  "checkpoint_path": "D:\\homework\\7506\\MP1_student_starter\\MP1_student_starter\\code\\runs\\temperature-3\\t105\\checkpoint.pt",
+  "checkpoint_sha256": "dc19ace484134e6700eba49981fb1a8f8457adfc6c1a5f4aff38d630016505d5",
+  "implementation": "temperature_ensemble3",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "member_configs": [
+      {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256
+      },
+      {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "dropout_p": 0.05
+      },
+      {
+        "vocab": 2048,
+        "width": 192,
+        "heads": 4,
+        "depth": 4,
+        "context": 256,
+        "dropout_p": 0.05
+      }
+    ],
+    "member_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "temperature": 1.05
+  },
+  "parent_checkpoint_sha256": "2181241cf0d7cafee627a0f8e1b0bdd884ae575aacdff2af83a2276bc474e447",
+  "source_sha256": {
+    "temperature_ensemble3.py": "c9d23417f3eeca26f4eb86b4ab5ad98fb4a3cd486578f41332f654a9b3432671",
+    "ensemble3.py": "b4b578a1adf2e5848f4656ed5ad7f6fff7e574e547ab182602ccd4a21a7642ef",
+    "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "data/tokenizer.json": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e"
+  }
+}

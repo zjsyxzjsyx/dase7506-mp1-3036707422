@@ -1,0 +1,37 @@
+{
+  "selection_split": "validation",
+  "selected_soft_weight": 0.75,
+  "component_seeds": [
+    17,
+    23
+  ],
+  "component_ema_checkpoints": [
+    "runs\\distillation-14400\\kd075-s17\\ema07.pt",
+    "runs\\distillation-14400\\kd075-s23\\ema07.pt"
+  ],
+  "component_ema_sha256": [
+    "676fcbfdcd512ba32ddca588b0a965ed905330a01ff442db58ca74c43c7b9862",
+    "3509ef958bf7bedf4e5a654e315496c351e20f67858217f206645762c63d9a82"
+  ],
+  "member_temperatures": [
+    0.975,
+    0.975
+  ],
+  "first_token_max_probability_threshold": 0.16,
+  "validation_bpb": 1.4809463290098634,
+  "validation_cpu_seconds": 20.812881999998353,
+  "checkpoint_sha256": "a46036ff367b26b081a253213f367657e7d65a10cd5fdd537b72c8379b1fe649",
+  "source_pair_checkpoint_sha256": "70b7d3366f9a656cfc5c374d143baf968347d2682a75ebc2e47732a80078a87c",
+  "implementation": "temperature_gated_ensemble2",
+  "source_sha256": {
+    "temperature_gated_ensemble2.py": "8bb5145ecbb3d63e66c3badfacec89d51f3985ff8f36dd5d95d88fad0bf18d4e",
+    "gated_ensemble2.py": "a96b76e2dc253d63f285941d3a4ce9a18c56d9b955a70cc79490c75f942c1c8e",
+    "ensemble2.py": "188fbd2e32c81a8092af6e866c2f4f6900921865578c6a6b75ba84753ecd2f9b",
+    "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "data/tokenizer.json": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e"
+  },
+  "additional_python_worker_threads": 0,
+  "test_status_at_freeze": "not evaluated"
+}

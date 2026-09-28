@@ -1,0 +1,20 @@
+{
+  "selection_split": "validation",
+  "teacher_checkpoint": "runs/temperature-3/t105/checkpoint.pt",
+  "teacher_role": "Frozen probabilities on sampled training-text prefixes only",
+  "student_implementation": "model",
+  "student_configs": ["configs/gelu_width256.json", "configs/gelu_width320.json"],
+  "conditions": ["cross_entropy_only", "half_cross_entropy_half_teacher_cross_entropy"],
+  "seed": 17,
+  "steps": 9600,
+  "batch_size": 32,
+  "targets_per_run": 78643200,
+  "peak_lr_by_width": {"256": 0.001, "320_attempts": [0.001, 0.0007, 0.0003, 0.0001]},
+  "plan_revision": "Width-320 CE became nonfinite at peak LR 0.001 and 0.0007; at 0.0003 and 0.0001 its loss collapsed to near-uniform predictions. Width-320 CE attempts were stopped or failed, so no width-320 distillation treatment was run and no paired width-320 benefit is claimed. All attempts remain in the search cost.",
+  "min_lr_ratio": 0.1,
+  "warmup_steps": 100,
+  "eval_every": 600,
+  "precision": "fp32",
+  "selection_rule": "Compare paired validation BPB at equal training targets and independent CPU FP32 inference time. The test split is not evaluated for student selection.",
+  "cost_accounting": "Report the student training and search cost in addition to all teacher-component training costs."
+}

@@ -1,0 +1,13 @@
+.venv/
+.venv-gpu/
+__pycache__/
+*.pyc
+runs/
+*.pt
+!runs/
+runs/*
+!runs/temperature-3/
+runs/temperature-3/*
+!runs/temperature-3/t105/
+runs/temperature-3/t105/*
+!runs/temperature-3/t105/checkpoint.pt

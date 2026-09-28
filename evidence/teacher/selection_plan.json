@@ -1,0 +1,9 @@
+{
+  "selection_split": "validation",
+  "base_checkpoint": "runs/snapshot-interval-3/ema7-uni7/checkpoint.pt",
+  "temperature_target": "Each member's logits before softmax, with one shared temperature",
+  "coarse_temperatures": [0.8, 0.9, 1.0, 1.1, 1.2],
+  "fine_temperatures": "Offsets of 0.025, 0.05 and 0.075 on each side of the best coarse temperature, excluding coarse duplicates",
+  "member_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+  "selection_rule": "Select the lowest full-validation CUDA FP32 BPB, then confirm the selected checkpoint on CPU FP32. Do not use test scores for calibration."
+}
